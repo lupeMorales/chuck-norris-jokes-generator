@@ -1,0 +1,30 @@
+@import "../core/variables.scss";
+.chuck {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    width: 100%;
+    background-color: $background-color;
+  }
+  &__joke {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text {
+    color: beige;
+    font-size: 3.8rem;
+  }
+  &__button {
+    width: 30%;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-size: 1.8rem;
+  }
+}
