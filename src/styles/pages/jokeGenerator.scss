@@ -19,9 +19,16 @@
     color: beige;
     font-size: 3.8rem;
   }
+  &__actions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center∫;
+  }
   &__button {
-    width: 30%;
+    width: auto;
     height: 40px;
+    padding: 0 15px;
     color: black;
     border-radius: 5px;
     border: 2px solid grey;
